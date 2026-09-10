@@ -1,0 +1,32 @@
+# Godot 4+ specific ignores
+.godot/
+*.translation
+*.pot
+*.mo
+
+# C# cache
+.mono/
+.vs/
+*.csproj
+*.sln
+
+# Import cache
+import_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Builds
+bin/
+obj/
+dist/
+build/

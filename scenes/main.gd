@@ -68,14 +68,10 @@ func inventory_has(items: Array) -> bool:
 func raid_military_base():
 	print("Raiding military base...")
 	game_state = "combat"
-	# Collect resources and recruit engineer + FBI agent
 
 func build_escape_plane():
 	if discovered_plot:
 		print("Building escape plane with engineer and FBI agent...")
-		# Requires specific materials from military bases
-		var escape_scene = load("res://scenes/escape.tscn")
-		add_child(escape_scene.instantiate())
 
 func _process(_delta):
 	pass
