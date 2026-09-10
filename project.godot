@@ -1,0 +1,25 @@
+[gd_project]
+
+config_version=5
+
+[application]
+
+config/name="Island Survival Game"
+config/version="1.0.0"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.1", "3d")
+
+[rendering]
+
+textures/vram_compression/import_etc2_astc=true
+lights_and_shadows/directional_shadow/size=4096
+anti_aliasing/screen_space_roughness_limiter/enabled=false
+
+[physics]
+
+3d/physics_engine="GodotPhysics3D"
+
+[debug]
+
+gdscript/warnings/unused_variable=1
+gdscript/warnings/unused_parameter=1
